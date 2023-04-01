@@ -1,0 +1,68 @@
+4. mkdir SI_2023_lab1_213193 -> креираме репозиториум
+   cd SI_2023_lab1_213193 -> влегуваме во репозиториумот
+   git init -> го иницијализираме, го правиме да биде local repo
+
+5. git remote add origin https://github.com/angelagjorgjievska/SI_2023_lab1_213193.git -> го повразуваме local repo со remote repo
+
+6. notepad README.md -> креираме README.md датотека
+   git add README.md -> ја додаваме да биде на stage
+   git commit -m "Initial commit" -> ja додаваме како верзија
+
+7. notepad SILab1.java -> креираме фајл
+   git add SILab1.java -> го додаваме да биде на stage
+   git commit -m "Add java class" -> го додаваме како верзија
+
+8. git push --all origin -> ги синхронизираме сите гранки со оддалечениот репозиториум
+
+9. git branch bug1 -> креираме гранка
+   git branch bug2 -> креираме гранка
+   git branch bug3 -> креираме гранка
+
+10. git checkout bug1 -> се префрламе на гранката bug1
+
+11. notepad SIlab1.java -> ja отвараме SIlab1.java и ја поправаме грешката
+    git commit -a -m "Fix wrong loop for reading" -> ja додаваме како верзија со порака
+
+12. git checkout bug2 -> се префрламе на гранката bug2
+
+13. notepad SIlab1.java -> ja отвараме SIlab1.java и ја поправаме грешката
+    git commit -a -m "Fix wrong condition in filterOddNumbers" -> ja додаваме како верзија со порака
+
+14. git checkout bug3 -> се префрламе на гранката bug3
+
+15. notepad SIlab1.java -> ja отвараме SIlab1.java и ја поправаме грешката
+    git commit -a -m "Fix method sumEvenNumbers" -> ja додаваме како верзија со порака
+
+16. git push --all origin  -> ги синхронизираме сите гранки со оддалечениот репозиториум
+
+17. git checkout master -> се префрламе на гранката master
+
+18. git merge bug1 -> ja спојуваме гранката bug1 кон гранката master, не се случи конфликт
+
+19. git push --all origin -> ги синхронизираме сите гранки со оддалечениот репозиториум
+
+20. git merge bug2 -> ja спојуваме гранката bug2 кон гранката master, не се случи конфликт
+
+21. git push --all origin -> ги синхронизираме сите гранки со оддалечениот репозиториум
+
+22. git checkout bug3 -> ja спојуваме гранката bug3 кон гранката master
+
+23. git rebase master -> правиме rebase спрема гранката master.
+
+24. git checkout master -> се префрламе на гранката master
+
+25. git merge bug3 -> ja спојуваме гранката bug3 кон гранката master, не се случи конфликт
+
+26.  git push --force origin bug3 -> ја синхронизираме bug3 со оддалечениот репозиториум
+     git push --all origin -> ги синхронизираме другите гранки со оддалечениот репозиториум
+
+27. git log -> ги отвараме логовите
+    
+    notepad logs.txt -> креираме датотека
+    git add logs.txt -> ја додаваме да биде на stage
+    notepad 213193.txt -> креираме датотека
+    git add 213193.txt -> ја додаваме да биде на stage
+    git commit -m "Final commit" -> ja додаваме како верзија со порака
+
+28. git push --all origin -> ги синхронизираме сите гранки со оддалечениот репозиториум
+    

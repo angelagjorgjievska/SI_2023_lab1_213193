@@ -1,0 +1,29 @@
+C:\Users\Angela Gjorgjievska\Documents\SI_2023_lab1_213193>git log
+commit 690eebd67ef217ab00ff0b8561e86654037bffbf (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Angela Gjorgjievska <gjorgjievska_angela@yahoo.com>
+Date:   Sat Apr 1 21:37:27 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit 73b3c587abf6129cd29fb4b87fe491d5fef4cf3f
+Merge: dc5ad9d 159c827
+Author: Angela Gjorgjievska <gjorgjievska_angela@yahoo.com>
+Date:   Sat Apr 1 21:39:15 2023 +0100
+
+    Merge branch 'bug2'
+
+commit 159c827aed912f6fe08161e650501e6153bc74e7 (origin/bug2, bug2)
+Author: Angela Gjorgjievska <gjorgjievska_angela@yahoo.com>
+Date:   Sat Apr 1 21:35:43 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit dc5ad9d05a77fa64f4167857939380b7bdec6d2e (origin/bug1, bug1)
+Author: Angela Gjorgjievska <gjorgjievska_angela@yahoo.com>
+Date:   Sat Apr 1 21:34:37 2023 +0100
+
+    Fix wrong loop for reading
+
+commit c268d2f01558f9d8ce8eb3bad10ef55d68de11e8
+Author: Angela Gjorgjievska <gjorgjievska_angela@yahoo.com>
+Date:   Sat Apr 1 21:31:26 2023 +0100
